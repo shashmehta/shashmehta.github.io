@@ -10,14 +10,17 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>San Mateo Highschool</p>
+    <br>
+    <p> 10th Grade </p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hello! My name is Shashvat, and I am a 10th-grade student at San Mateo High School. I have a deep passion for learning and exploring new subjects. Whether it's diving into the complexities of mathematics, experimenting in the science lab, or crafting stories in English class, I always strive to expand my knowledge and skills.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of academics, I am actively involved in various extracurricular activities. I was the team captain of Vortex Robotics, a comunity robotics team, where I enjoy working on innovative projects and competing in FTC competitions. Additionally, I play for the school's soccer team, which has taught me the importance of teamwork and perseverance.
+
+In my free time, I love cooking, and consistantly cook for myself and my family. I also enjoy coding and have been learning different programming languages since 6th grade to build my own projects. I am fluent in Python and Java and know some HTML and CSS. My goal is to pursue a career in technology, where I can combine my love for problem-solving and creativity to make a positive impact on the world.

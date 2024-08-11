@@ -198,17 +198,19 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: sans-serif;
+    text-align: center;
 
     p {
       display: inline-block;
       margin: 0;
+      font-size: 110%
     }
   }
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .profile.float-left {
@@ -248,6 +250,12 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-size: 100%;
+}
+
+.clearfix {
+  font-size: larger;
+  align-items: justify;
 }
 
 .navbar .dropdown-menu {
