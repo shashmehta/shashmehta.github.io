@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <h5> High school student with a passion for learning </h5>
+subtitle: <h5 class="post-description"> High school student with a passion for learning </h5>
 
 profile:
   align: right

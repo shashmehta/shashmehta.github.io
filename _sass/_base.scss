@@ -231,7 +231,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
 
   a {
     color: inherit;
@@ -243,21 +243,28 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Navbar customization
-
-.navbar {
-  box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
-  font-size: 100%;
-}
-
-//Biography text on about page
+//Biography
 .clearfix {
   font-size: larger;
   text-align: justify;
 }
+
+//About page title
+.about-title {
+  align-items: center;
+}
+
+// Navbar customization
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 2px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
+  font-size: 110%;
+  font-weight: 400;
+}
+
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -654,12 +661,13 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: center;
+    font-weight: bold;
   }
 }
 
