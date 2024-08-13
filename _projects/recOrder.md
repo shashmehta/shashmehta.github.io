@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RecOrder
+title: recOrder
 description: Made for the Computational Microscopy platform at CZ Biohub
 img: assets/img/Recorder.png
 importance: 1
@@ -12,11 +12,11 @@ related_publications: false
 
 <!-- Text -->
 <br>
-<p class="project-text">This year, my primary project involved developing an animation to illustrate a novel technology named RecOrder, created by the computational microscopy platform at CZ Biohub. RecOrder is a collection of advanced label-free imaging methods that utilize phase and polarization to visualize cellular structures without the use of stains. It is an open-source software package that is designed to be used alongside a conventional widefield microscope.</p>
+<p class="project-text">This year, my primary project involved developing an animation to illustrate a novel technology named recOrder, created by the computational microscopy platform at CZ Biohub. recOrder is a collection of advanced label-free imaging methods that utilize phase and polarization to visualize cellular structures without the use of stains. It is an open-source software package that is designed to be used alongside a conventional widefield microscope.</p>
 
 <!-- Learn More -->
 <br>
-<p class="learn-more">Find more information about RecOrder <a href="https://github.com/mehta-lab/recOrder">here</a></p>
+<p class="learn-more">Find more information about recOrder <a href="https://github.com/mehta-lab/recOrder">here</a></p>
 
 ---
 
@@ -24,7 +24,7 @@ related_publications: false
 <div class="process">
     <h2>Process</h2>
     <ol class="list">
-        <li>Researched and understood the principles of RecOrder technology.</li>
+        <li>Researched and understood the principles of recOrder technology.</li>
         <li>Modeled individual components of the microscope using reference images.</li>
         <li>Developed the animation using Blender.</li>
         <li>Tested and refined the animation to ensure accuracy and clarity.</li>

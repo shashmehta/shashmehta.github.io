@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shashvat Mehta # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Shashvat
-middle_name: S.
+middle_name:
 last_name: Mehta
 email: "shashvatsmehta@gmail.com"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -194,6 +194,9 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
+    output: true
+    permalink: /:collection/:title/
+  teaching:
     output: true
     permalink: /:collection/:title/
 

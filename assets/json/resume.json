@@ -128,7 +128,7 @@
   "projects": [
     {
       "name": "Lab Equipment 3D Animation",
-      "summary": "Created a 3D animation describing the a new algroithm for imaging cells called RecOrder designed by Shalin Mehta at CZ Biohub",
+      "summary": "Created a 3D animation describing the a new algroithm for imaging cells called recOrder designed by Shalin Mehta at CZ Biohub",
       "highlights": ["Cellular Biology", "3D Animation"],
       "startDate": "2024",
       "endDate": "2024",
