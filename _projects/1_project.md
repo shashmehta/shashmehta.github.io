@@ -12,7 +12,7 @@ related_publications: false
 
 <!-- Text -->
 <br>
-<p class="project-text">This year, my primary project involved developing an animation to illustrate a novel technology named RecOrder, created by the computational microscopy platform at CZ Biohub. RecOrder is an collection of advanced label-free imaging methods that utilize phase and polarization to visualize cellular structures without the use of stains. It is an open-source software package that is designed to be used alongside a conventional widefield microscope. RecOrder provides tools for the extraction of neuronal activity, the identification of active neurons, and the visualization of neuronal networks. Highly customizable, RecOrder can be integrated with other data analysis pipelines, making it an ideal solution for neuroscientists and researchers working with large-scale imaging data. </p>
+<p class="project-text">This year, my primary project involved developing an animation to illustrate a novel technology named RecOrder, created by the computational microscopy platform at CZ Biohub. RecOrder is a collection of advanced label-free imaging methods that utilize phase and polarization to visualize cellular structures without the use of stains. It is an open-source software package that is designed to be used alongside a conventional widefield microscope.</p>
 
 <!-- Learn More -->
 <br>
@@ -25,8 +25,8 @@ related_publications: false
     <h2>Process</h2>
     <ol class="list">
         <li>Researched and understood the principles of RecOrder technology.</li>
-        <li>Modeled individual components of the microscope using reference images</li>
-        <li>Developed the animation using Blender</li>
+        <li>Modeled individual components of the microscope using reference images.</li>
+        <li>Developed the animation using Blender.</li>
         <li>Tested and refined the animation to ensure accuracy and clarity.</li>
         <li>Gathered feedback and made necessary revisions.</li>
     </ol>
