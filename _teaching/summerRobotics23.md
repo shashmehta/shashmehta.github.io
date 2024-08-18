@@ -29,13 +29,15 @@ horizontal: false
 <!-- Videos and Image -->
 <div class="row">
     <div class="column">
-        <iframe class="YT-Video" src="https://www.youtube.com/embed/0zE3n4akSwA?si=laJ4w4CiRJF2I0TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <iframe class="YT-Video" src="https://www.youtube.com/embed/IedSfH3mgZM?si=ek6li3rMu9OrlLWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="column">
-        <iframe class="YT-Video" src="https://www.youtube.com/embed/0zE3n4akSwA?si=laJ4w4CiRJF2I0TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <iframe class="YT-Video" src="https://www.youtube.com/embed/P2rGLv6b-vA?si=mNARLK98CMUx7-6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="column">
-        {% include figure.liquid path="assets/img/summer_robotics.jpg" title="Image"%}
+        <div class="image">
+            {% include figure.liquid path="assets/img/car.jpg" title="Image"%}
+        </div>
     </div>
 </div>
 
@@ -49,8 +51,8 @@ horizontal: false
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-        gap: 20px; /* Optional: Adds space between the columns */
+        /* align-items: center; */
+        gap: 20px; /*Optional: Adds space between the columns */
     }
 
     .column {
@@ -60,13 +62,12 @@ horizontal: false
 
     .column iframe, .column img {
         max-width: 100%;
-        height: auto;
     }
  
-    .YT-Video {
+   .YT-Video {
+        position: relative;
         width: 100%; /* Adjust the width as needed */
-        height: calc(100vh - 100px); /* Adjust the height to leave space for the description */            
-        display: block; /* Ensure the video is displayed as a block element */
+        height: 100%; /* Adjust the height to leave space for the description */       
         border: 5px solid white; /* Add a white border */
     }
 
@@ -90,10 +91,10 @@ horizontal: false
         display: inline-block
     }
     .image {
-        max-width: 75%;
-        height: auto;
-        border: 2px solid white;
-        margin: 0 auto;
+        max-width: 100%;
+        height: 100%;
+        border: 5px solid white; /* Add a white border */
+
     }
 
 </style>
