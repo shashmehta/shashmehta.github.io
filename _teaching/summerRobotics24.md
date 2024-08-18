@@ -14,14 +14,15 @@ horizontal: false
 <br>
 <div class="text">
     <p>
-    Before the 2023-2024 season Vortex Robotics held our summer training classes in which we helped over 20 students dive deep into the world of robotics. We taught the the basics of hardware and programming and helped them build their own Arduino robots.
+    I taught Python and Scratch classes at the library, introducing students to the world of programming. In the Python class, students learned the fundamentals of the language, including variables, loops, conditionals, and functions. With Scratch, younger students explored the basics of block-based programming by creating basic programs. They learned how to use different blocks to control characters, create movement, and use variables and methods. The class encouraged creativity and critical thinking, allowing students to express their ideas through coding.
+
     </p>
 </div>
 <br>
 <div class="impact">
     <ul class="list">
-    <li>20+ students impacted</li>
-    <li>Every student built their own robot</li>
+    <li>15+ students impacted</li>
+    <li>Every student had their own laptop and learned to program</li>
     </ul>
 </div>
 ---
