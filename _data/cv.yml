@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Shashvat Mehta
+      value: Albert Einstein
     - name: Date of Birth
-      value: July 27, 2009
+      value: 14th March 1879
     - name: Languages
-      value: English, Hindi, Gujarati
+      value: English, German
 
 - title: Education
   type: time_table
