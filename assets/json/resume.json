@@ -34,17 +34,43 @@
       "startDate": "2024",
       "summary": "I enjoy doing freelance 3D modelling in my freetime outside of school. I have worked on a variety of projects ranging from logo design to techincal 3D animations of lab equipment such as microscopes",
       "highlights": ["3D Modelling"]
+        },
+        {
+      "name": "3D Modeling Tutor",
+      "position": "Tutor",
+      "url": "",
+      "startDate": "2023",
+      "summary": "I provide tutoring sessions for students interested in learning 3D modeling and animation using software like Blender",
+      "highlights": ["Teaching", "3D Modeling"]
+        },
+        {
+      "name": "Vortex Robotics Coach",
+      "position": "Coach",
+      "url": "",
+      "startDate": "2024",
+      "summary": "I coach the new members of the Vortex Robotics team, helping them prepare for competitions and develop their skills in robotics",
+      "highlights": ["Robotics", "Leadership", "Teaching"]
     }
   ],
   "volunteer": [
     {
       "organization": "Foster City Library",
       "location": "Foster City, California",
-      "position": "Coach",
+      "position": "Instructor",
       "startDate": "8/3/24",
       "endDate": "8/11/24",
-      "summary": "I held multiple classes at the Foster City Library to educate young kids about the basics of programming and robotics and its real life applications.",
+      "summary": "I held multiple classes at the Foster City Library to teach young kids in the basics of programming and robotics",
       "highlights": ["Teaching"]
+    }
+    ,
+    {
+      "organization": "Vortex Robotics",
+      "location": "San Mateo, California",
+      "position": "Co-Captain",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "Lead the Vortex Robotics as co-captain from 2022-2024 to the FIRST Tech Challenge Regional Championships",
+      "highlights": ["Leadership", "Robotics", "Teamwork"]
     }
   ],
   "education": [
@@ -91,19 +117,19 @@
   ],
   "skills": [
     {
-      "name": "3D Modelling",
+      "name": "3D Modeling",
       "level": "Upper Intermediate",
       "keywords": ["Blender", "OnShape"]
     },
     {
       "name": "Programming",
       "level": "Intermediate",
-      "keywords": ["Python", "Java", "HTML", "C#"]
+      "keywords": ["Python", "Java", "HTML"]
     },
     {
       "name" : "Cooking",
       "level": "Intermediate",
-      "keywords": ["Baking", "Grilling", "Drinks"]
+      "keywords": ["Grilling", "Baking", "Day to Day Cooking", "Indian Cuisine"]
     },
     {
       "name": "Robotics",
@@ -117,12 +143,12 @@
       "keywords": ["Robotics", "Artificial Intelligence"]
     },
     {
-      "name": "Magic",
-      "keywords": ["Card Tricks"]
+      "name": "3D Modeling",
+      "keywords": ["Blender", "Animation"]
     },
     {
       "name": "Cooking",
-      "keywords": ["Drinks", "Grilling", "Baking"]
+      "keywords": ["Grilling", "Baking", "Day to Day Cooking", "Indian Cuisine"]
     }
   ],
   "projects": [
@@ -133,14 +159,6 @@
       "startDate": "2024",
       "endDate": "2024",
       "url": "https://github.com/mehta-lab/recOrder"
-    },
-    {
-      "name": "Vortex Robotics",
-      "summary": "Lead the Vortex Robotics as co-captain from 2022-2024 to the FIRST Tech Challenge Regional Championships",
-      "highlights": ["Robotics", "Leadership"],
-      "startDate": "2022",
-      "endDate": "2024",
-      "url": "https://vortexrobotics.org"
     }
   ]
 }

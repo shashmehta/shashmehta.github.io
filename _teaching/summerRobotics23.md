@@ -14,7 +14,7 @@ horizontal: false
 <br>
 <div class="text">
     <p>
-    Before the 2023-2024 season Vortex Robotics held our summer training classes in which we helped over 20 students dive deep into the world of robotics. We taught the the basics of hardware and programming and helped them build their own Arduino robots.
+    Before the 2023-2024 season, Vortex Robotics held our summer training classes in which we helped over 20 students dive deep into the world of robotics. We taught the the basics of hardware and programming and helped them build their own Arduino robots.
     </p>
 </div>
 <br>
