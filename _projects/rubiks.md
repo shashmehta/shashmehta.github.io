@@ -2,7 +2,7 @@
 layout: page
 title: Rubik's Cube Animation
 description: A fun animation I made in Blender to practice my skills
-img: assets/img/rubiks.png
+img: assets/img/Rubiks.png
 importance: 2
 category: Fun
 giscus_comments: false
