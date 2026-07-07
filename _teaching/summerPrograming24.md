@@ -6,100 +6,41 @@ img: assets/img/teaching_cover.jpg
 importance: 1
 category: Classes
 horizontal: false
+detail_page: true
 ---
 
----
-
-<!-- Text -->
-<br>
-<div class="text">
+<div class="detail-page">
+  <section class="detail-section detail-overview">
     <p>
-    I taught Python and Scratch classes at the library, introducing students to the world of programming. In the Python class, students learned the fundamentals of the language, including variables, loops, conditionals, and functions. With Scratch, younger students explored the basics of block-based programming by creating basic programs. They learned how to use different blocks to control characters, create movement, and use variables and methods. The class encouraged creativity and critical thinking, allowing students to express their ideas through coding.
-
+      I taught Python and Scratch classes at the library with my robotics team, introducing younger students to
+      programming through hands-on lessons and creative projects.
     </p>
-</div>
-<br>
-<div class="impact">
-    <ul class="list">
-    <li>15+ students impacted</li>
-    <li>Every student had their own laptop and learned to program</li>
+    <p>
+      Students learned fundamentals such as variables, loops, conditionals, and functions in Python. Younger students
+      used Scratch to explore block-based programming, movement, variables, and simple interactive programs.
+    </p>
+  </section>
+
+  <section class="detail-section">
+    <h2>Impact</h2>
+    <ul class="detail-impact">
+      <li>15+ students reached</li>
+      <li>Each student had a laptop and built working programs</li>
     </ul>
+  </section>
+
+  <section class="detail-section">
+    <h2>Class Photos</h2>
+    <div class="detail-media-grid">
+      <div class="detail-image">
+        {% include figure.liquid path="assets/img/teaching_1.jpg" title="Programming class photo" %}
+      </div>
+      <div class="detail-image">
+        {% include figure.liquid path="assets/img/teaching_2.jpg" title="Programming class photo" %}
+      </div>
+      <div class="detail-image">
+        {% include figure.liquid path="assets/img/teaching_3.jpg" title="Programming class photo" %}
+      </div>
+    </div>
+  </section>
 </div>
----
-
-<!-- Videos and Image -->
-<div class="row">
-    <div class="column">
-       <div class="image">
-            {% include figure.liquid path="assets/img/teaching_1.jpg" title="Image"%}
-        </div>
-    </div>
-    <div class="column">
-       <div class="image">
-            {% include figure.liquid path="assets/img/teaching_2.jpg" title="Image"%}
-        </div>
-    </div>
-    <div class="column">
-        <div class="image">
-            {% include figure.liquid path="assets/img/teaching_3.jpg" title="Image"%}
-        </div>
-    </div>
-</div>
-
-
-
-
-<!-- Styles -->
-<style>
-
-    .row {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 20px; /*Optional: Adds space between the columns */
-    }
-
-    .column {
-        flex: 1;
-        text-align: center;
-    }
-
-    .column iframe, .column img {
-        max-width: 100%;
-    }
- 
-   .YT-Video {
-        position: relative;
-        width: 100%; /* Adjust the width as needed */
-        height: 100%; /* Adjust the height to leave space for the description */       
-        border: 5px solid white; /* Add a white border */
-    }
-
-    /* Description Text */
-    .text {
-        font-size: 1.9rem;
-        line-height: 200%;
-        text-align: center;
-        display: block
-    }
-    .impact {
-        text-align: center;
-        list-style-position: inside;
-        line-height: 300%;
-        display: block
-    }
-    .impact .list {
-        text-align: center;
-        font-size: 2rem;
-        font-weight: 300;
-        display: inline-block
-    }
-    .image {
-        max-width: 100%;
-        height: 100%;
-        border: 5px solid white; /* Add a white border */
-
-    }
-
-</style>
