@@ -4,7 +4,7 @@ title: 3D Modeling Tutoring
 description: I tutored a student in 3D modeling with Blender
 img: assets/img/tutoring3D.jpg
 importance: 1
-category: test
+category: Mentorship
 horizontal: false
 detail_page: true
 ---

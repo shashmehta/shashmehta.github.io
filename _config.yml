@@ -199,6 +199,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:title/
+  experience:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
@@ -636,6 +639,7 @@ jsonresume:
   - basics
   - work
   - education
+  - activities
   - publications
   - projects
   - volunteer

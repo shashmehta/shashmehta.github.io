@@ -4,7 +4,7 @@ title: recOrder
 description: Made for the Computational Microscopy platform at CZ Biohub
 img: assets/img/Recorder.png
 importance: 1
-category: Work
+category: Research Projects
 related_publications: false
 detail_page: true
 ---

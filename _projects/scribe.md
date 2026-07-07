@@ -4,7 +4,7 @@ title: SCRIBE
 description: Explainable machine learning for single-cell RNA-seq biomarker discovery
 img: assets/img/scribe_poster.jpg
 importance: 0
-category: Work
+category: Research Projects
 related_publications: false
 detail_page: true
 ---

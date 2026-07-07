@@ -924,8 +924,87 @@ footer.sticky-bottom {
   }
 }
 
+.activities-page {
+  .activities-section {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .activities-section:first-child {
+    padding-top: 0.5rem;
+  }
+
+  .activities-section:last-child {
+    border-bottom: 0;
+  }
+
+  .activities-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.55rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0;
+  }
+
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .activities-grid--compact {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .activity-card {
+    padding: 1.15rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    background: var(--global-card-bg-color);
+  }
+
+  .activity-card__meta {
+    margin-bottom: 0.45rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+
+  .activity-card h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
+
+  .activity-card p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--global-text-color-light);
+  }
+
+  .activity-card a {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 991.98px) {
+    .activities-grid,
+    .activities-grid--compact {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
 .projects,
-.teaching {
+.teaching,
+.work-volunteer {
   a {
     color: inherit;
     text-decoration: none;

@@ -5,7 +5,7 @@ permalink: /teaching/
 description: A collection of courses I have taught
 nav: true
 nav_order: 6
-display_categories: [Classes]
+display_categories: [Classes, Mentorship]
 horizontal: false
 ---
 
@@ -14,12 +14,11 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category | slugify }}" href=".#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  <!-- Changed line 21 and 22 from site.projects to site.teaching -->
   {% assign categorized_projects = site.teaching | where: "category", category %}
-  {% assign sorted_projects = site.teaching | sort: "importance" %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -42,7 +41,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.teaching | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
