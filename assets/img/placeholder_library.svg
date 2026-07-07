@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Library placeholder</title>
+  <desc id="desc">Simple placeholder image for library work and volunteering.</desc>
+  <rect width="1200" height="750" fill="#1b1b1d"/>
+  <rect x="70" y="70" width="1060" height="610" rx="28" fill="#222226" stroke="#424246" stroke-width="4"/>
+  <path d="M250 220h230c56 0 92 28 120 72 28-44 64-72 120-72h230v310H730c-58 0-96 22-130 62-34-40-72-62-130-62H250z" fill="#d9d9dc"/>
+  <path d="M600 292v300" stroke="#1b1b1d" stroke-width="18"/>
+  <path d="M300 290h140M300 360h156M300 430h126M760 290h140M744 360h156M774 430h126" stroke="#4dc3e7" stroke-width="22" stroke-linecap="round"/>
+  <text x="600" y="650" fill="#d9d9dc" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle">Library Service</text>
+</svg>
