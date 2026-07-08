@@ -40,15 +40,15 @@ social: true # includes social icons at the bottom of the page
     <section class="about-inline-section" aria-labelledby="about-focus-heading">
       <h2 id="about-focus-heading">Focus Areas</h2>
       <div class="about-focus-grid">
-        <a class="about-focus-card" href="{{ '/projects/' | relative_url }}">
+        <a class="about-focus-card" href="{{ '/projects/scribe/' | relative_url }}">
           <h3>Computational Biology</h3>
           <p>Machine learning, single-cell RNA sequencing, and interpretable cancer biomarker discovery.</p>
         </a>
-        <a class="about-focus-card" href="{{ '/projects/' | relative_url }}">
+        <a class="about-focus-card" href="{{ '/teaching/summerRobotics23/' | relative_url }}">
           <h3>Robotics &amp; Engineering</h3>
           <p>FTC leadership, robot design, software development, and mentoring younger students.</p>
         </a>
-        <a class="about-focus-card" href="{{ '/projects/' | relative_url }}">
+        <a class="about-focus-card" href="{{ '/teaching/summerPrograming24/' | relative_url }}">
           <h3>Teaching &amp; Communication</h3>
           <p>Tutoring, workshops, technical explanation, and public speaking.</p>
         </a>

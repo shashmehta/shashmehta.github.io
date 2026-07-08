@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Summer Programming Classes 2024
-description: Classes that were taught with my robotics team
+description: Python and Scratch classes taught with my robotics team
 img: assets/img/teaching_cover.jpg
 importance: 1
 category: Classes
@@ -26,6 +26,8 @@ detail_page: true
     <ul class="detail-impact">
       <li>15+ students reached</li>
       <li>Each student had a laptop and built working programs</li>
+      <li>Introduced students to both text-based and block-based programming</li>
+      <li>Developed and taught lessons with my robotics team before my library internship</li>
     </ul>
   </section>
 

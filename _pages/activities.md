@@ -15,8 +15,8 @@ nav_order: 4
         <div class="activity-card__meta">Research Presentation</div>
         <h3>American Association for Cancer Research</h3>
         <p>
-          Presented SCRIBE, an explainable machine learning project for identifying cancer biomarkers from single-cell
-          RNA sequencing data, at the AACR Annual Meeting in San Diego.
+          Presented SCRIBE with Pragnya Keerthivasan at the AACR Annual Meeting in San Diego, sharing an explainable
+          machine learning pipeline for single-cell RNA-seq biomarker discovery.
         </p>
         <a href="{{ '/projects/scribe/' | relative_url }}">View SCRIBE project</a>
       </article>
@@ -35,6 +35,16 @@ nav_order: 4
   <section class="activities-section">
     <h2>Leadership & Communication</h2>
     <div class="activities-grid">
+      <article class="activity-card">
+        <div class="activity-card__meta">Library Internship</div>
+        <h3>Foster City Library Scratch Class</h3>
+        <p>
+          During my 2025 Foster City Library internship, I taught young students Scratch through short lessons on loops
+          and conditionals, then helped them build creative coding projects.
+        </p>
+        <a href="{{ '/experience/foster-city-library/' | relative_url }}">View internship details</a>
+      </article>
+
       <article class="activity-card">
         <div class="activity-card__meta">Student Government</div>
         <h3>Associated Student Body Treasurer</h3>
