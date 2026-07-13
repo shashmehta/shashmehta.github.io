@@ -428,6 +428,10 @@ strong {
   color: var(--global-text-color-light);
 }
 
+.experience-summary .button {
+  margin-top: 1rem;
+}
+
 .experience-summary dl {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr);

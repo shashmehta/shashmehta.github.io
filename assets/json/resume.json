@@ -28,12 +28,12 @@
   ],
   "work": [
     {
-      "name": "Technical Animation and 3D Modeling",
-      "position": "Freelance Designer",
+      "name": "Freelance 3D Modeling and Animation",
+      "position": "Independent Projects",
       "url": "",
       "startDate": "2024",
-      "summary": "Created technical and creative 3D models, including animations of microscopy and laboratory equipment.",
-      "highlights": ["Blender", "Technical animation", "3D modeling", "[TODO: Add client, scope, and outcome]"]
+      "summary": "Completed a small number of 3D modeling and animation projects for friends and family, gaining practical experience with scoping, iteration, and delivery.",
+      "highlights": ["Blender", "3D modeling", "Animation", "Client communication"]
     },
     {
       "name": "Vortex Robotics",
@@ -274,8 +274,8 @@
       "url": "https://github.com/shashmehta/SCRIBE"
     },
     {
-      "name": "recOrder Animation",
-      "summary": "Created a 3D animation in Blender for waveOrder, a Biohub Computational Microscopy Platform technology.",
+      "name": "waveOrder Animation",
+      "summary": "Created a 3D animation in Blender for waveOrder, a Biohub Computational Microscopy Platform suite of imaging tools.",
       "highlights": [
         "Explained how label-free phase and polarization imaging can visualize cellular structures without stains.",
         "Published as supplementary material in a scientific paper."

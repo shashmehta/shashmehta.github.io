@@ -13,6 +13,7 @@ nav_order: 3
       <p class="experience-summary__label">Profile</p>
       <h2 id="profile-heading">Shashvat Mehta</h2>
       <p>High school senior building software for computational biology, robotics, and technical visualization.</p>
+      <a class="button" href="{{ '/assets/pdf/shashvat-mehta-resume.pdf' | relative_url }}">Download résumé (PDF)</a>
     </div>
     <dl>
       <div><dt>Email</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd></div>
@@ -42,14 +43,14 @@ nav_order: 3
       <article class="experience-card">
         <p class="experience-card__meta">2024 · Technical visualization</p>
         <p class="experience-card__category">Design &amp; Engineering</p>
-        <h3>recOrder Animation</h3>
+        <h3>waveOrder Animation</h3>
         <p>
           Modeled microscope components and animated the imaging workflow in Blender to explain label-free phase and
           polarization imaging. This project also reflects technical animation and 3D-modeling work on microscopy and
           laboratory equipment.
         </p>
         <ul class="tag-list"><li>Blender</li><li>3D modeling</li><li>Technical animation</li><li>Microscopy</li></ul>
-        <a href="{{ '/projects/recOrder/' | relative_url }}">View details</a>
+        <a href="{{ '/projects/waveorder/' | relative_url }}">View details</a>
       </article>
     </div>
   </section>
@@ -180,6 +181,18 @@ nav_order: 3
         <p class="resume-panel__meta">Selected recognition</p>
         <h3>Honors</h3>
         <p>AP Scholar; FTC Inspire, Think, Design, Connect, and Control Awards; and FTC Finalist Alliance recognition.</p>
+      </section>
+    </div>
+  </section>
+
+  <section class="experience-section" id="supporting-experience">
+    <div class="section-heading"><h2>Supporting Experience</h2></div>
+    <div class="resume-grid">
+      <section class="resume-panel resume-panel--wide">
+        <p class="resume-panel__meta">2024–present · Independent projects</p>
+        <h3>Freelance 3D Modeling and Animation</h3>
+        <p>Completed a small number of 3D modeling and animation projects for friends and family, building practical experience in scoping requests, iterating on visual work, and delivering clear technical and creative assets.</p>
+        <ul class="tag-list"><li>Blender</li><li>3D modeling</li><li>Animation</li><li>Client communication</li></ul>
       </section>
     </div>
   </section>

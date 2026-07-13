@@ -69,11 +69,11 @@ social: false
     <article class="featured-card">
       <div class="featured-card__body">
         <p class="featured-card__type">Technical visualization</p>
-        <h3>recOrder Animation</h3>
+        <h3>waveOrder Animation</h3>
         <p>A Blender animation explaining how an open-source microscopy tool visualizes cells without stains.</p>
         <p class="featured-card__contribution"><strong>Contribution:</strong> Modeled microscope components and animated the imaging workflow.</p>
-        <ul class="tag-list" aria-label="recOrder technologies"><li>Blender</li><li>3D modeling</li><li>Animation</li></ul>
-        <div class="card-actions"><a href="{{ '/projects/recOrder/' | relative_url }}">Case study</a></div>
+        <ul class="tag-list" aria-label="waveOrder technologies"><li>Blender</li><li>3D modeling</li><li>Animation</li></ul>
+        <div class="card-actions"><a href="{{ '/projects/waveorder/' | relative_url }}">Case study</a></div>
       </div>
     </article>
 
