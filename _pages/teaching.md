@@ -3,11 +3,12 @@ layout: page
 title: Teaching
 permalink: /teaching/
 description: A collection of courses I have taught
-nav: true
-nav_order: 6
+nav: false
 display_categories: [Classes, Mentorship]
 horizontal: false
 ---
+
+<p class="compatibility-note">Teaching is now part of the <a href="{{ '/experience/#teaching' | relative_url }}">Experience page</a>. The detailed pages below remain available.</p>
 
 <!-- pages/projects.md -->
 <div class="teaching">

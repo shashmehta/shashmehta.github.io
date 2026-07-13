@@ -1,90 +1,72 @@
 ---
 layout: page
-title: Activities
-permalink: /activities/
-description: Leadership, service, academic programs, and honors
+title: Experience
+permalink: /experience/
+description: Technical leadership, teaching, employment, and community work.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
-<div class="activities-page">
-  <section class="activities-section">
-    <h2>Academic & Research Programs</h2>
-    <div class="activities-grid">
-      <article class="activity-card">
-        <div class="activity-card__meta">Research Presentation</div>
-        <h3>American Association for Cancer Research</h3>
-        <p>
-          Presented SCRIBE with Pragnya Keerthivasan at the AACR Annual Meeting in San Diego, sharing an explainable
-          machine learning pipeline for single-cell RNA-seq biomarker discovery.
-        </p>
-        <a href="{{ '/projects/scribe/' | relative_url }}">View SCRIBE project</a>
-      </article>
+<div class="experience-page">
+  <nav class="section-nav" aria-label="Experience sections">
+    <a href="#leadership">Leadership</a><a href="#teaching">Teaching</a><a href="#employment">Employment</a><a href="#community">Community</a>
+  </nav>
 
-      <article class="activity-card">
-        <div class="activity-card__meta">Academic Program</div>
-        <h3>Stanford Summer Session</h3>
+  <section class="experience-section" id="leadership">
+    <div class="section-heading"><p class="eyebrow">Robotics</p><h2>Leadership</h2></div>
+    <div class="experience-grid">
+      <article class="experience-card experience-card--wide">
+        <p class="experience-card__meta">2023–2026 · Vortex Robotics, FTC Team 14969</p>
+        <h3>Team Captain and Software Lead</h3>
         <p>
-          Completed Stanford's CS106B coursework, studying data abstractions, recursion, algorithmic thinking, and time
-          and space complexity analysis in C++.
+          Led meetings, design discussions, outreach, logistics, budgeting, and software development for an FTC regional
+          championship team. My technical work included robot software, computer vision, debugging, and team strategy.
         </p>
+        <ul class="tag-list"><li>Java</li><li>FTC software</li><li>Computer vision</li><li>Leadership</li></ul>
+        <p class="todo-note">[TODO: Clarify which software components Shashvat personally implemented]</p>
       </article>
-    </div>
-  </section>
-
-  <section class="activities-section">
-    <h2>Leadership & Communication</h2>
-    <div class="activities-grid">
-      <article class="activity-card">
-        <div class="activity-card__meta">Library Internship</div>
-        <h3>Foster City Library Scratch Class</h3>
-        <p>
-          During my 2025 Foster City Library internship, I taught young students Scratch through short lessons on loops
-          and conditionals, then helped them build creative coding projects.
-        </p>
-        <a href="{{ '/experience/foster-city-library/' | relative_url }}">View internship details</a>
-      </article>
-
-      <article class="activity-card">
-        <div class="activity-card__meta">Student Government</div>
+      <article class="experience-card">
+        <p class="experience-card__meta">2026–2027 · San Mateo High School</p>
         <h3>Associated Student Body Treasurer</h3>
-        <p>
-          Managed event budgets, deposits, reimbursements, payments, ticket sales, and financial records while supporting
-          school events with peers and staff.
-        </p>
+        <p>Managed event budgets, deposits, reimbursements, payments, ticket sales, and financial records with peers and staff.</p>
       </article>
-
-      <article class="activity-card">
-        <div class="activity-card__meta">Public Speaking</div>
+      <article class="experience-card">
+        <p class="experience-card__meta">2024–2026 · San Mateo High School</p>
         <h3>Varsity Mock Trial Witness</h3>
-        <p>
-          Prepared testimony, practiced direct and cross-examinations, and developed stronger public speaking, critical
-          thinking, and communication under pressure.
-        </p>
+        <p>Prepared testimony and practiced direct and cross-examinations, building clearer public speaking under pressure.</p>
       </article>
     </div>
   </section>
 
-  <section class="activities-section">
-    <h2>Selected Honors</h2>
-    <div class="activities-grid activities-grid--compact">
-      <article class="activity-card">
-        <div class="activity-card__meta">FTC Robotics</div>
-        <h3>Inspire Award</h3>
-        <p>2nd Place in Grade 9 and 3rd Place in Grade 10 for overall FTC team excellence.</p>
-      </article>
+  <section class="experience-section" id="teaching">
+    <div class="section-heading"><p class="eyebrow">Instruction and mentorship</p><h2>Teaching</h2></div>
+    <div class="experience-grid">
+      <article class="experience-card"><p class="experience-card__meta">2024–present · Paid role</p><h3>FTC Youth Coach</h3><p>Led weekly workshops for younger students on Java, hardware integration, autonomous routines, and troubleshooting.</p><a href="{{ '/teaching/ftc-youth-coach/' | relative_url }}">View details</a></article>
+      <article class="experience-card"><p class="experience-card__meta">2024 · Personal tutoring</p><h3>3D Modeling and Programming Tutor</h3><p>Taught Blender, Python, and Scratch through one-on-one, project-based lessons.</p><a href="{{ '/teaching/Tutoring3D/' | relative_url }}">View details</a></article>
+      <article class="experience-card"><p class="experience-card__meta">2024 · Foster City Library</p><h3>Summer Programming Classes</h3><p>Taught Python and Scratch fundamentals through hands-on lessons and creative projects.</p><a href="{{ '/teaching/summerPrograming24/' | relative_url }}">View details</a></article>
+      <article class="experience-card"><p class="experience-card__meta">2023–2024</p><h3>FIRST Lego League Youth Coach</h3><p>Helped a rookie team debug code, improve robot consistency, and optimize autonomous routines.</p><a href="{{ '/teaching/fll-youth-coach/' | relative_url }}">View details</a></article>
+      <article class="experience-card"><p class="experience-card__meta">2023 · Vortex Robotics</p><h3>Summer Robotics Classes</h3><p>Taught hardware, programming, and design fundamentals while students built and tested Arduino robots.</p><a href="{{ '/teaching/summerRobotics23/' | relative_url }}">View details</a></article>
+    </div>
+  </section>
 
-      <article class="activity-card">
-        <div class="activity-card__meta">FTC Robotics</div>
-        <h3>Think, Design & Connect Awards</h3>
-        <p>Recognized for engineering documentation, robot design quality, and STEM community engagement.</p>
+  <section class="experience-section" id="employment">
+    <div class="section-heading"><p class="eyebrow">Applied work</p><h2>Employment</h2></div>
+    <div class="experience-grid">
+      <article class="experience-card">
+        <p class="experience-card__meta">2024 · 3D modeling</p>
+        <h3>Technical Animation and Design</h3>
+        <p>Created technical and creative 3D models, including animations of microscopy and laboratory equipment.</p>
+        <p class="todo-note">[TODO: Add client, scope, and outcome]</p>
+        <a href="{{ '/projects/recOrder/' | relative_url }}">View recOrder animation</a>
       </article>
+    </div>
+  </section>
 
-      <article class="activity-card">
-        <div class="activity-card__meta">Academics</div>
-        <h3>AP Scholar</h3>
-        <p>Earned AP Scholar as a 10th grader after scoring 3 or higher on three AP exams.</p>
-      </article>
+  <section class="experience-section" id="community">
+    <div class="section-heading"><p class="eyebrow">Service</p><h2>Community Work</h2></div>
+    <div class="experience-grid">
+      <article class="experience-card"><p class="experience-card__meta">2025 · Foster City Library</p><h3>Summer Intern</h3><p>Supported youth programs, library operations, community outreach, and a Scratch programming class.</p><a href="{{ '/experience/foster-city-library/' | relative_url }}">View details</a></article>
+      <article class="experience-card"><p class="experience-card__meta">2025 · San Mateo County</p><h3>Clinic Volunteer</h3><p>Greeted patients and supported day-to-day operations in a community healthcare setting.</p><a href="{{ '/experience/san-mateo-county-clinic/' | relative_url }}">View details</a></article>
     </div>
   </section>
 </div>

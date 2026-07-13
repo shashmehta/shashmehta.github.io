@@ -28,12 +28,45 @@
   ],
   "work": [
     {
-      "name": "Freelance 3D Modeling",
-      "position": "Designer",
+      "name": "Technical Animation and 3D Modeling",
+      "position": "Freelance Designer",
       "url": "",
       "startDate": "2024",
-      "summary": "Created technical and creative 3D modeling projects, including animations of microscopy and lab equipment.",
-      "highlights": ["Blender", "Technical Animation", "3D Modeling"]
+      "summary": "Created technical and creative 3D models, including animations of microscopy and laboratory equipment.",
+      "highlights": ["Blender", "Technical animation", "3D modeling", "[TODO: Add client, scope, and outcome]"]
+    },
+    {
+      "name": "Vortex Robotics",
+      "position": "Robotics Coach",
+      "url": "",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "Coached new team members in robot design, programming, planning, and teamwork.",
+      "highlights": [
+        "Taught hardware and software fundamentals for the FIRST Tech Challenge competition.",
+        "Helped lead the team to the regional championships during the 2024–2025 season."
+      ]
+    },
+    {
+      "name": "Vortex Robotics",
+      "position": "Captain",
+      "url": "",
+      "startDate": "2021",
+      "endDate": "2024",
+      "summary": "Led the team as co-captain to the FIRST Tech Challenge Regional Championships.",
+      "highlights": ["Won FTC Inspire, Control, Connect, and Design awards."]
+    },
+    {
+      "name": "Personal Tutor",
+      "position": "3D Modeling and Programming Tutor",
+      "url": "",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Tutored students in 3D modeling and coding using Blender, Python, and Scratch.",
+      "highlights": [
+        "Developed a project-based learning curriculum and provided one-on-one tutoring.",
+        "Earned bonus compensation for tutoring quality."
+      ]
     }
   ],
   "education": [
@@ -41,10 +74,11 @@
       "institution": "San Mateo High School",
       "location": "San Mateo, California",
       "url": "https://smhs.smuhsd.org/",
-      "area": "",
+      "area": "Weighted GPA: 4.57/4.00",
       "studyType": "High School",
       "startDate": "2023",
-      "endDate": "2027"
+      "endDate": "2027",
+      "courses": ["AP Biology", "AP Computer Science", "AP Calculus AB/BC", "AP Physics", "Biotechnology", "Varsity Mock Trial"]
     },
     {
       "institution": "Stanford Summer Session",
@@ -54,6 +88,7 @@
       "studyType": "Summer Coursework",
       "startDate": "2026",
       "endDate": "2026",
+      "displayDate": "Summer 2026",
       "courses": ["C++", "Data abstractions", "Recursion", "Time and space complexity"]
     }
   ],
@@ -70,7 +105,7 @@
     {
       "organization": "Vortex Robotics, FTC Team 14969",
       "location": "San Mateo, California",
-      "position": "FIRST Tech Challange Youth Coach",
+      "position": "FIRST Tech Challenge Youth Coach",
       "url": "/teaching/ftc-youth-coach/",
       "startDate": "2024",
       "endDate": "2026",
@@ -140,6 +175,12 @@
   ],
   "awards": [
     {
+      "title": "AP Scholar",
+      "date": "2024",
+      "awarder": "College Board",
+      "summary": "Earned AP Scholar as a 10th grader after scoring 3 or higher on three AP exams, including AP Computer Science A, AP Calculus AB, and AP Physics 1."
+    },
+    {
       "title": "FIRST Tech Challenge Inspire Award",
       "date": "2023",
       "awarder": "FIRST",
@@ -170,55 +211,39 @@
       "summary": "Reached the playoff finals at a State/Regional FTC Championship as part of the finalist alliance."
     },
     {
-      "title": "AP Scholar",
-      "date": "2024",
-      "awarder": "College Board",
-      "summary": "Earned AP Scholar as a 10th grader after scoring 3 or higher on three AP exams, including AP Computer Science A, AP Calculus AB, and AP Physics 1."
+      "title": "FIRST Tech Challenge Control Award",
+      "date": "2021",
+      "awarder": "FIRST",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Programming",
-      "level": "Intermediate",
-      "keywords": ["Python", "Java", "C++", "HTML", "CSS"]
+      "name": "Languages",
+      "level": "",
+      "keywords": ["Python", "Java", "C++", "HTML/CSS"]
     },
     {
-      "name": "Machine Learning and Data Analysis",
-      "level": "Intermediate",
-      "keywords": ["Random Forests", "scRNA-seq", "AnnData", "Batch correction", "Feature importance"]
+      "name": "Data and Machine Learning",
+      "level": "",
+      "keywords": ["AnnData", "Random Forests", "Single-cell RNA-seq analysis", "ComBat", "Harmony", "Feature importance"]
     },
     {
       "name": "Robotics",
-      "level": "Advanced",
-      "keywords": ["FIRST Tech Challenge", "Robot software", "Computer vision", "Team leadership"]
+      "level": "",
+      "keywords": ["Java robot software", "Computer vision", "Autonomous routines", "Hardware debugging"]
     },
     {
-      "name": "3D Modeling",
-      "level": "Upper Intermediate",
-      "keywords": ["Blender", "Onshape", "Animation", "Technical visualization"]
+      "name": "Design and Engineering",
+      "level": "",
+      "keywords": ["Blender", "Onshape", "3D modeling", "Technical animation", "Mechanical design"]
     }
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "Gujarati",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "French",
-      "fluency": "Basic",
-      "icon": ""
-    }
+    { "language": "English", "fluency": "Fluent", "icon": "" },
+    { "language": "Hindi", "fluency": "Native speaker", "icon": "" },
+    { "language": "Gujarati", "fluency": "Native speaker", "icon": "" },
+    { "language": "French", "fluency": "Basic", "icon": "" }
   ],
   "interests": [
     {
@@ -233,36 +258,41 @@
       "name": "Teaching",
       "keywords": ["Programming", "3D modeling", "Robotics mentorship"]
     },
-    {
-      "name": "Cooking",
-      "keywords": ["Recipe testing", "Food science", "Technique"]
-    }
+    { "name": "Cooking", "keywords": ["Recipe testing", "Food science", "Technique"] }
   ],
   "projects": [
     {
       "name": "SCRIBE",
-      "summary": "Built an explainable machine learning pipeline for identifying cancer biomarkers from single-cell RNA sequencing data.",
-      "highlights": ["Python", "scRNA-seq", "Random Forests", "Batch correction"],
-      "startDate": "2025",
+      "summary": "Built a Python pipeline for exploring single-cell RNA sequencing cancer data, helping researchers identify biomarkers and potential therapeutic targets.",
+      "highlights": [
+        "Presented the project in the high school section of the American Association for Cancer Research conference in April 2026.",
+        "Published as the open-source SCRIBE GitHub repository."
+      ],
+      "startDate": "2026",
       "endDate": "2026",
+      "displayDate": "2026",
       "url": "https://github.com/shashmehta/SCRIBE"
     },
     {
       "name": "recOrder Animation",
-      "summary": "Created a technical animation explaining an open-source computational microscopy technology from CZ Biohub.",
-      "highlights": ["3D animation", "Microscopy", "Technical communication"],
+      "summary": "Created a 3D animation in Blender for waveOrder, a Biohub Computational Microscopy Platform technology.",
+      "highlights": [
+        "Explained how label-free phase and polarization imaging can visualize cellular structures without stains.",
+        "Published as supplementary material in a scientific paper."
+      ],
       "startDate": "2024",
       "endDate": "2024",
-      "url": "https://github.com/mehta-lab/recOrder"
+      "displayDate": "2024",
+      "url": "https://arxiv.org/abs/2412.09775"
     }
   ],
   "publications": [
     {
-      "name": "SCRIBE: Explainable Machine Learning for Understanding Human Tumors",
-      "publisher": "American Association for Cancer Research Annual Meeting",
+      "name": "SCRIBE: Explainable Machine Learning for Understanding Human Tumors — Research Poster",
+      "publisher": "AACR Annual Meeting, San Diego",
       "releaseDate": "2026",
       "url": "https://github.com/shashmehta/SCRIBE",
-      "summary": "Presented research on machine learning models for identifying interpretable cancer biomarkers and therapeutic targets from single-cell RNA sequencing data."
+      "summary": "Presented with Pragnya Keerthivasan in April 2026. SCRIBE ranks candidates for further investigation; this presentation did not claim clinical or wet-lab validation. [TODO: Add Zenodo poster record and DOI after upload.]"
     }
   ],
   "certificates": [],

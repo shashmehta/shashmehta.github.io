@@ -68,19 +68,24 @@ layout: default
     </header>
 
     <article>
+      {{ content }}
       <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
+        {% assign resume_order = 'basics,projects,work,activities,volunteer,education,skills,awards,publications' | split: ',' %}
+        {% for section in resume_order %}
+          {% assign section_items = site.data.resume[section] %}
+          {% if section_items.size == 0 %} {% continue %} {% endif %}
+          {% assign data = '' | split: '' | push: section | push: section_items %}
+          {% assign section_title = section | capitalize %}
+          {% if section == 'projects' %}{% assign section_title = 'Technical Projects & Research' %}{% endif %}
+          {% if section == 'work' %}{% assign section_title = 'Relevant Experience' %}{% endif %}
+          {% if section == 'activities' %}{% assign section_title = 'Leadership' %}{% endif %}
+          {% if section == 'volunteer' %}{% assign section_title = 'Teaching & Community Work' %}{% endif %}
+          {% if section == 'publications' %}{% assign section_title = 'Research Presentations' %}{% endif %}
+          <a class="anchor" id="{{ section }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
-              {% case data[0] %}
+              {% case section %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
                 {% when 'education' %}

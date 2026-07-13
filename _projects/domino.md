@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Domino Animation
-description: A fun animation I made to experiment with rigid body animation
+description: A Blender study in rigid-body simulation, lighting, materials, and animation timing.
+contribution: Designed, modeled, lit, and animated the scene as an independent experiment.
+tags: [Blender, Rigid body simulation, Lighting, Animation]
+demo: https://www.youtube.com/watch?v=EXJsybOjGQQ
 img: assets/img/domino.png
 importance: 2
-category: Fun
+category: 3D Design & Animation
 giscus_comments: false
 detail_page: true
 ---

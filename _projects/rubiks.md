@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Rubik's Cube Animation
-description: A fun animation I made in Blender to practice my skills
+description: An independent Blender project exploring stylized modeling, materials, camera framing, and animation.
+contribution: Designed and animated the scene without following a tutorial.
+tags: [Blender, 3D modeling, Materials, Animation]
+demo: https://www.youtube.com/watch?v=C2VuaL9GTGE
 img: assets/img/Rubiks.png
 importance: 2
-category: Fun
+category: 3D Design & Animation
 giscus_comments: false
 detail_page: true
 ---

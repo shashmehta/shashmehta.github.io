@@ -3,77 +3,120 @@ layout: about
 title: About
 permalink: /
 custom_about: true
-
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false
 ---
 
-<section class="about-hero" aria-labelledby="about-hero-heading">
-  <div class="about-hero__content">
-    <h1 id="about-hero-heading"><span>Shashvat</span> Mehta</h1>
-    <p class="about-hero__subtitle">High school senior passionate about the intersection of computer science, engineering, and biology.</p>
+<section class="portfolio-hero" aria-labelledby="hero-heading">
+  <div class="portfolio-hero__copy">
+    <p class="eyebrow">Student software engineer · computational biology · robotics</p>
+    <h1 id="hero-heading">I build software for biological research and robotics.</h1>
+    <p class="portfolio-hero__lede">
+      My recent work includes SCRIBE, an open-source single-cell RNA-sequencing pipeline presented at AACR, and software
+      and technical leadership for an FTC regional championship robotics team. I like turning complex technical problems
+      into tools and explanations that other people can use.
+    </p>
+    <div class="portfolio-actions" aria-label="Primary links">
+      <a class="button button--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="button" href="{{ '/cv/' | relative_url }}">View Résumé</a>
+      <a class="button" href="https://github.com/shashmehta" rel="me">GitHub</a>
+    </div>
+    <p class="todo-note">[TODO: Add final one-page résumé PDF]</p>
+  </div>
+  <figure class="profile-portrait profile-portrait--hero">
+    <img src="{{ '/assets/img/prof_pic.PNG' | relative_url }}" alt="Portrait of Shashvat Mehta" loading="eager">
+    <figcaption>Shashvat Mehta · San Mateo High School</figcaption>
+  </figure>
+</section>
+
+<section class="portfolio-section" aria-labelledby="featured-heading">
+  <div class="section-heading">
+    <p class="eyebrow">Selected projects</p>
+    <h2 id="featured-heading">Featured Work</h2>
+  </div>
+  <div class="featured-grid">
+    <article class="featured-card featured-card--primary">
+      <div class="featured-card__media">
+        <img src="{{ '/assets/img/scribe_poster.jpg' | relative_url }}" alt="SCRIBE research poster presented at AACR" loading="eager">
+      </div>
+      <div class="featured-card__body">
+        <p class="featured-card__type">Computational biology · open source</p>
+        <h3>SCRIBE</h3>
+        <p>Analyzes single-cell RNA-seq data and surfaces interpretable biomarker candidates for further investigation.</p>
+        <p class="featured-card__contribution">
+          <strong>Contribution:</strong> Built the Python pipeline with a collaborator and presented it at AACR in April 2026.
+        </p>
+        <ul class="tag-list" aria-label="SCRIBE technologies">
+          <li>Python</li><li>AnnData</li><li>Random Forests</li><li>scRNA-seq</li>
+        </ul>
+        <div class="card-actions">
+          <a href="{{ '/projects/scribe/' | relative_url }}">Case study</a>
+          <a href="https://github.com/shashmehta/SCRIBE">GitHub</a>
+          <a href="https://shashmehta-scribe.hf.space/">Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="featured-card">
+      <div class="featured-card__body">
+        <p class="featured-card__type">Technical visualization</p>
+        <h3>recOrder Animation</h3>
+        <p>A Blender animation explaining how an open-source microscopy tool visualizes cells without stains.</p>
+        <p class="featured-card__contribution"><strong>Contribution:</strong> Modeled microscope components and animated the imaging workflow.</p>
+        <ul class="tag-list" aria-label="recOrder technologies"><li>Blender</li><li>3D modeling</li><li>Animation</li></ul>
+        <div class="card-actions"><a href="{{ '/projects/recOrder/' | relative_url }}">Case study</a></div>
+      </div>
+    </article>
+
+    <article class="featured-card">
+      <div class="featured-card__body">
+        <p class="featured-card__type">Robotics leadership</p>
+        <h3>Vortex Robotics</h3>
+        <p>FTC robot software, design discussions, competition strategy, and technical mentoring for younger students.</p>
+        <p class="featured-card__contribution">
+          <strong>Contribution:</strong> Served as team captain and software lead for a regional championship team.
+        </p>
+        <ul class="tag-list" aria-label="Robotics technologies"><li>Java</li><li>FTC</li><li>Computer vision</li><li>Debugging</li></ul>
+        <div class="card-actions"><a href="{{ '/experience/#leadership' | relative_url }}">View experience</a></div>
+      </div>
+    </article>
+
   </div>
 </section>
 
-<section class="about-section about-intro" aria-labelledby="about-intro-heading">
-  <div class="about-intro__content">
-    <h2 id="about-intro-heading">About</h2>
-    <p>
-      I'm Shashvat Mehta, a senior at San Mateo High School interested in the intersection of computer science,
-      engineering, and biology. I'm drawn to projects where technical problem-solving can make complex systems easier to
-      understand, whether that means building robotics software, analyzing biological data, or creating tools others can
-      use.
-    </p>
-    <p>
-      A lot of my growth has come through Vortex Robotics, my FIRST Tech Challenge team. As captain, I helped lead
-      design, software, and competition strategy, and I now mentor younger students in robotics, programming, and project
-      development. I also tutor students in 3D modeling and coding, which has strengthened both my technical foundation
-      and my ability to explain ideas clearly.
-    </p>
-    <p>
-      My research work focuses on using machine learning to analyze single-cell RNA sequencing data and identify
-      interpretable cancer biomarkers. Through SCRIBE, an open-source Python pipeline, I've explored how computational
-      tools can support biological research.
-    </p>
-
-    <section class="about-inline-section" aria-labelledby="about-focus-heading">
-      <h2 id="about-focus-heading">Focus Areas</h2>
-      <div class="about-focus-grid">
-        <a class="about-focus-card" href="{{ '/projects/scribe/' | relative_url }}">
-          <h3>Computational Biology</h3>
-          <p>Machine learning, single-cell RNA sequencing, and interpretable cancer biomarker discovery.</p>
-        </a>
-        <a class="about-focus-card" href="{{ '/teaching/summerRobotics23/' | relative_url }}">
-          <h3>Robotics &amp; Engineering</h3>
-          <p>FTC leadership, robot design, software development, and mentoring younger students.</p>
-        </a>
-        <a class="about-focus-card" href="{{ '/teaching/summerPrograming24/' | relative_url }}">
-          <h3>Teaching &amp; Communication</h3>
-          <p>Tutoring, workshops, technical explanation, and public speaking.</p>
-        </a>
-      </div>
-    </section>
-
-    <section class="about-inline-section about-personal" aria-labelledby="about-personal-heading">
-      <h2 id="about-personal-heading">Outside of academics</h2>
-      <p>
-        Outside of academics, I love to spend time cooking, for both myself and my family. I love to try new recipes and
-        show my creativity through my dishes. Other than cooking, I enjoy spending time with my freinds and family and
-        going to the gym.
-      </p>
-    </section>
+<section class="portfolio-section" aria-labelledby="focus-heading">
+  <div class="section-heading">
+    <p class="eyebrow">What I work with</p>
+    <h2 id="focus-heading">Technical Focus</h2>
   </div>
-  <figure class="about-intro__media">
-    <img
-      class="img-fluid rounded z-depth-1"
-      src="{{ '/assets/img/prof_pic.PNG' | relative_url }}"
-      alt="Portrait of Shashvat Mehta"
-      loading="eager"
-    >
-    <figcaption>
-      <span>San Mateo High School</span>
-      <span>12th Grade</span>
-    </figcaption>
-  </figure>
+  <div class="focus-grid">
+    <article><h3>Computational Biology</h3><p>Single-cell RNA-seq analysis, batch correction, and interpretable candidate ranking through SCRIBE.</p></article>
+    <article><h3>Software &amp; Machine Learning</h3><p>Python, Java, C++, data pipelines, Random Forest classifiers, and practical debugging.</p></article>
+    <article><h3>Robotics &amp; Engineering</h3><p>FTC software, computer vision, hardware integration, mechanical design, and team strategy.</p></article>
+    <article><h3>Technical Communication</h3><p>Research posters, technical animation, programming classes, and one-on-one mentoring.</p></article>
+  </div>
+</section>
+
+<section class="portfolio-section about-summary" aria-labelledby="about-heading">
+  <div class="about-summary__copy">
+    <div class="section-heading"><p class="eyebrow">A little context</p><h2 id="about-heading">About</h2></div>
+    <p>
+      I’m a senior at San Mateo High School who builds software for computational biology and robotics. I enjoy problems
+      that require understanding a complex system, testing ideas carefully, and making the result useful to someone else.
+    </p>
+    <p>
+      Through Vortex Robotics, I have led software and team strategy while mentoring younger students. Teaching robotics,
+      programming, and 3D modeling has also made me more deliberate about how I explain technical decisions.
+    </p>
+    <p class="personal-note">Outside school, I enjoy cooking, spending time with friends and family, and going to the gym.</p>
+  </div>
+</section>
+
+<section class="portfolio-section contact-section" id="contact" aria-labelledby="contact-heading">
+  <div><p class="eyebrow">Get in touch</p><h2 id="contact-heading">Contact</h2></div>
+  <p>I’m interested in software engineering, computational biology, robotics, and research internship opportunities.</p>
+  <div class="portfolio-actions">
+    <a class="button button--primary" href="mailto:{{ site.email }}">Email me</a>
+    <a class="button" href="https://www.linkedin.com/in/shashvat-mehta/">LinkedIn</a>
+    <a class="button" href="https://github.com/shashmehta">GitHub</a>
+  </div>
 </section>
