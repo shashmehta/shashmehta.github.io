@@ -8,7 +8,7 @@ display_categories: [Volunteer]
 horizontal: false
 ---
 
-<p class="compatibility-note">Community work is now part of the <a href="{{ '/experience/#community' | relative_url }}">Experience page</a>. Existing detail pages remain available.</p>
+<p class="compatibility-note">Community work is now part of the <a href="{{ '/experience/#community' | relative_url }}">CV</a>. Existing detail pages remain available.</p>
 
 <div class="work-volunteer">
 {% if page.display_categories %}

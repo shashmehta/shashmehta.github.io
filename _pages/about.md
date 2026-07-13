@@ -8,29 +8,39 @@ social: false
 
 <section class="portfolio-hero" aria-labelledby="hero-heading">
   <div class="portfolio-hero__copy">
-    <p class="eyebrow">Student software engineer · computational biology · robotics</p>
-    <h1 id="hero-heading">I build software for biological research and robotics.</h1>
+    <p class="eyebrow">Shashvat Mehta · Student at San Mateo High school · 12th Grade</p>
+    <h1 id="hero-heading">High school student passionate about biological research and robotics.</h1>
     <p class="portfolio-hero__lede">
       My recent work includes SCRIBE, an open-source single-cell RNA-sequencing pipeline presented at AACR, and software
-      and technical leadership for an FTC regional championship robotics team. I like turning complex technical problems
-      into tools and explanations that other people can use.
+      and technical leadership for an FTC regional championship robotics team. I like working through complex technical problems
+      and turning them into tools that other people can use.
     </p>
-    <div class="portfolio-actions" aria-label="Primary links">
-      <a class="button button--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
-      <a class="button" href="{{ '/cv/' | relative_url }}">View Résumé</a>
-      <a class="button" href="https://github.com/shashmehta" rel="me">GitHub</a>
-    </div>
-    <p class="todo-note">[TODO: Add final one-page résumé PDF]</p>
   </div>
   <figure class="profile-portrait profile-portrait--hero">
     <img src="{{ '/assets/img/prof_pic.PNG' | relative_url }}" alt="Portrait of Shashvat Mehta" loading="eager">
-    <figcaption>Shashvat Mehta · San Mateo High School</figcaption>
   </figure>
+</section>
+
+<section class="portfolio-section about-summary" aria-labelledby="about-heading">
+  <div class="about-summary__copy">
+    <div class="section-heading"><h2 id="about-heading">About</h2></div>
+    <p>
+      I'm Shashvat Mehta, a senior at San Mateo High School interested in
+      the intersection of computer science,
+      engineering, and biology. I'm drawn to projects where technical problem-solving can make complex systems easier to
+      understand, whether that means building robotics software, analyzing biological data, or creating tools others can
+      use.
+    </p>
+    <p>
+      Through Vortex Robotics, I have led software and team strategy while mentoring younger students. Teaching robotics,
+      programming, and 3D modeling has also made me more deliberate about how I explain technical decisions.
+    </p>
+    <p>Outside school, I enjoy cooking, spending time with friends and family, and going to the gym.</p>
+  </div>
 </section>
 
 <section class="portfolio-section" aria-labelledby="featured-heading">
   <div class="section-heading">
-    <p class="eyebrow">Selected projects</p>
     <h2 id="featured-heading">Featured Work</h2>
   </div>
   <div class="featured-grid">
@@ -85,7 +95,6 @@ social: false
 
 <section class="portfolio-section" aria-labelledby="focus-heading">
   <div class="section-heading">
-    <p class="eyebrow">What I work with</p>
     <h2 id="focus-heading">Technical Focus</h2>
   </div>
   <div class="focus-grid">
@@ -96,23 +105,8 @@ social: false
   </div>
 </section>
 
-<section class="portfolio-section about-summary" aria-labelledby="about-heading">
-  <div class="about-summary__copy">
-    <div class="section-heading"><p class="eyebrow">A little context</p><h2 id="about-heading">About</h2></div>
-    <p>
-      I’m a senior at San Mateo High School who builds software for computational biology and robotics. I enjoy problems
-      that require understanding a complex system, testing ideas carefully, and making the result useful to someone else.
-    </p>
-    <p>
-      Through Vortex Robotics, I have led software and team strategy while mentoring younger students. Teaching robotics,
-      programming, and 3D modeling has also made me more deliberate about how I explain technical decisions.
-    </p>
-    <p class="personal-note">Outside school, I enjoy cooking, spending time with friends and family, and going to the gym.</p>
-  </div>
-</section>
-
 <section class="portfolio-section contact-section" id="contact" aria-labelledby="contact-heading">
-  <div><p class="eyebrow">Get in touch</p><h2 id="contact-heading">Contact</h2></div>
+  <div><h2 id="contact-heading">Contact</h2></div>
   <p>I’m interested in software engineering, computational biology, robotics, and research internship opportunities.</p>
   <div class="portfolio-actions">
     <a class="button button--primary" href="mailto:{{ site.email }}">Email me</a>

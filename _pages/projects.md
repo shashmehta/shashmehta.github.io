@@ -13,8 +13,7 @@ horizontal: false
 
 <div class="projects-intro">
   <p>
-    These projects show how I approach technical work: understand the system, build a useful artifact, and communicate
-    what it can—and cannot—show. Research and software projects come first, followed by technical visualization and
+    These projects showcase some of my technical work. Research and software projects come first, followed by technical visualization and
     creative 3D work.
   </p>
 </div>

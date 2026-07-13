@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank # display the name in the home link
 first_name: Shashvat
 middle_name:
 last_name: Mehta

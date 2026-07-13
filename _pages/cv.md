@@ -1,13 +1,18 @@
 ---
-layout: cv
+layout: none
 permalink: /cv/
-title: Résumé
-nav: true
-nav_order: 4
-cv_pdf:
-description: Technical projects, relevant experience, leadership, teaching, education, and selected recognition.
-toc:
-  sidebar: left
+title: CV
 ---
 
-<p class="todo-note">[TODO: Add final one-page résumé PDF]</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ '/experience/' | relative_url }}">
+    <link rel="canonical" href="{{ '/experience/' | absolute_url }}">
+    <title>CV · Shashvat Mehta</title>
+  </head>
+  <body>
+    <p>The résumé is now part of <a href="{{ '/experience/' | relative_url }}">CV</a>.</p>
+  </body>
+</html>
