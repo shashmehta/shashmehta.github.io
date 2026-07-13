@@ -56,7 +56,7 @@ nav_order: 3
   </section>
 
   <section class="experience-section" id="leadership">
-    <div class="section-heading"><h2>Technical Leadership</h2></div>
+    <div class="section-heading"><h2> Leadership</h2></div>
     <div class="experience-grid">
       <article class="experience-card experience-card--wide">
         <p class="experience-card__meta">2021–present · Vortex Robotics, FTC Team 14969</p>
@@ -71,7 +71,7 @@ nav_order: 3
       </article>
       <article class="experience-card">
         <p class="experience-card__meta">2026–2027 · San Mateo High School</p>
-        <p class="experience-card__category">Leadership</p>
+        <p class="experience-card__category"> Leadership</p>
         <h3>Associated Student Body Treasurer</h3>
         <p>Managed event budgets, deposits, reimbursements, payments, ticket sales, and financial records with peers and staff.</p>
         <ul class="tag-list"><li>Budgeting</li><li>Financial records</li><li>Event operations</li></ul>

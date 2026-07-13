@@ -36,10 +36,8 @@ detail_page: true
   <section class="detail-section">
     <h2>Shashvat’s contribution</h2>
     <p>
-      I built SCRIBE collaboratively with Pragnya Keerthivasan and helped present it at AACR. The current repository does
-      not clearly separate every contributor’s implementation responsibilities.
+      I co-developed SCRIBE with Pragnya Keerthivasan, contributing to the machine-learning pipeline, data analysis, model evaluation, and interpretation of identified biomarkers. I also helped create and present our poster at the AACR Annual Meeting.
     </p>
-    <p class="todo-note">[TODO: Clarify Shashvat’s specific contribution]</p>
   </section>
 
   <section class="detail-section">
@@ -47,42 +45,30 @@ detail_page: true
     <ol class="detail-steps">
       <li>Convert GEO datasets into a standard AnnData format.</li>
       <li>Merge datasets for combined analysis.</li>
-      <li>Correct batch effects with ComBat or Harmony.</li>
+      <li>Correct batch effects with Harmony.</li>
       <li>Train interpretable Random Forest classifiers.</li>
       <li>Generate UMAPs, volcano plots, differential-expression summaries, and feature-importance rankings.</li>
     </ol>
   </section>
 
   <section class="detail-section">
-    <h2>Evaluation</h2>
-    <p>
-      The public portfolio does not yet document a verified evaluation protocol or quantitative results, so this case
-      study does not claim model accuracy or biological validation.
-    </p>
-    <p class="todo-note">[TODO: Add verified evaluation approach and results]</p>
-  </section>
-
-  <section class="detail-section">
     <h2>Limitations</h2>
     <ul class="detail-impact">
       <li>Feature rankings identify candidates for follow-up; they are not clinical conclusions.</li>
-      <li>The ranked candidates have not been described here as wet-lab validated.</li>
-      <li>Results depend on source data quality, preprocessing choices, batch correction, and model configuration.</li>
+      <li>The ranked candidates are not wet-lab validated.</li>
     </ul>
-    <p class="todo-note">[TODO: Add additional project limitations]</p>
   </section>
 
   <section class="detail-section">
     <h2>AACR poster presentation</h2>
     <p>
-      Shashvat Mehta and Pragnya Keerthivasan presented SCRIBE as a research poster at the AACR Annual Meeting in San
+      We presented SCRIBE as a research poster at the AACR Annual Meeting in San
       Diego in April 2026. The work was presented in poster format.
     </p>
     <div class="detail-media-grid">
       <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_1.jpg" title="AACR poster presentation" alt="Shashvat Mehta presenting the SCRIBE research poster at AACR" %}</div>
       <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_2.jpg" title="AACR poster presentation" alt="Shashvat Mehta and Pragnya Keerthivasan with the SCRIBE poster at AACR" %}</div>
       <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_3.jpg" title="SCRIBE research poster" alt="SCRIBE research poster displayed at AACR" %}</div>
-      <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_4.jpg" title="AACR Annual Meeting" alt="AACR Annual Meeting presentation area in San Diego" %}</div>
     </div>
     <div class="detail-poster">{% include figure.liquid path="assets/img/scribe_poster.jpg" title="SCRIBE research poster" alt="Research poster describing the SCRIBE pipeline" %}</div>
     <p class="todo-note">[TODO: Add Zenodo poster record and DOI after upload.]</p>
@@ -93,7 +79,7 @@ detail_page: true
     <div class="detail-actions" aria-label="SCRIBE project links">
       <a href="https://github.com/shashmehta/SCRIBE">GitHub repository</a>
       <a href="https://shashmehta-scribe.hf.space/">Hugging Face demo</a>
-      <a href="https://www.linkedin.com/posts/shashvat-mehta_im-so-grateful-for-the-recent-opportunity-activity-7453844212317323264-XH4B">AACR reflection</a>
+      <a href="https://www.linkedin.com/posts/shashvat-mehta_im-so-grateful-for-the-recent-opportunity-activity-7453844212317323264-XH4B">LinkedIn Post</a>
     </div>
   </section>
 </div>

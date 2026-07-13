@@ -11,7 +11,7 @@ detail_page: true
 <div class="detail-page">
   <section class="detail-section detail-overview">
     <p>
-      I volunteered with the San Mateo County Clinic system during the summer before junior year, supporting day-to-day
+      I volunteered with the San Mateo County Clinic system during the summer before senior year, supporting day-to-day
       clinic operations and helping greet patients in a community healthcare setting.
     </p>
     <p>
