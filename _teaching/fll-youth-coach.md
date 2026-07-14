@@ -2,7 +2,6 @@
 layout: page
 title: FIRST Lego League Youth Coach
 description: Mentoring a rookie FLL team in coding, robot consistency, and autonomous strategy
-img: assets/img/placeholder_mentorship.svg
 importance: 3
 category: Mentorship
 horizontal: false

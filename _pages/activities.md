@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: /experience/
+permalink: /cv/
 description: Projects, technical leadership, teaching, education, and selected recognition.
 nav: true
 nav_order: 3
@@ -59,12 +59,13 @@ nav_order: 3
     <div class="section-heading"><h2> Leadership</h2></div>
     <div class="experience-grid">
       <article class="experience-card experience-card--wide">
-        <p class="experience-card__meta">2021–present · Vortex Robotics, FTC Team 14969</p>
+        <p class="experience-card__meta">2021–Present · Vortex Robotics, FTC Team 14969</p>
         <p class="experience-card__category">Robotics</p>
-        <h3>Team Captain and Robotics Coach</h3>
+        <h3>Captain and Robotics Coach</h3>
         <p>
-          Served as co-captain from 2021–2024, then coached newer team members from 2024 onward. Led design and software
-          discussions, planning, teamwork, and technical instruction for an FTC regional championship team.
+          Served as team captain from 2021–2024 before becoming a robotics coach in 2024. Led software and design
+          discussions, competition planning, and team strategy, then helped newer students develop their programming,
+          hardware, and debugging skills.
         </p>
         <ul class="tag-list"><li>Java</li><li>FTC robot software</li><li>Computer vision</li><li>Hardware debugging</li><li>Mentoring</li></ul>
         <a href="{{ '/teaching/ftc-youth-coach/' | relative_url }}">View details</a>
@@ -128,7 +129,7 @@ nav_order: 3
     <div class="section-heading"><h2>Community Work</h2></div>
     <div class="experience-grid">
       <article class="experience-card">
-        <p class="experience-card__meta">2025 · Foster City Library</p>
+        <p class="experience-card__meta">Summer 2025 · Foster City Library</p>
         <p class="experience-card__category">Community work</p>
         <h3>Summer Intern</h3>
         <p>Supported youth programs, library operations, community outreach, and a Scratch programming class.</p>
@@ -136,7 +137,7 @@ nav_order: 3
         <a href="{{ '/experience/foster-city-library/' | relative_url }}">View details</a>
       </article>
       <article class="experience-card">
-        <p class="experience-card__meta">2025 · San Mateo County</p>
+        <p class="experience-card__meta">Summer 2026 · San Mateo County</p>
         <p class="experience-card__category">Community work</p>
         <h3>Clinic Volunteer</h3>
         <p>Greeted patients and supported day-to-day operations in a community healthcare setting.</p>
@@ -152,7 +153,7 @@ nav_order: 3
       <section class="resume-panel">
         <p class="resume-panel__meta">2023–2027 · San Mateo High School</p>
         <h3>High School</h3>
-        <p>Weighted GPA: 4.57/4.00. Coursework includes AP Biology, AP Computer Science, AP Calculus AB/BC, AP Physics, and Biotechnology.</p>
+        <p>Weighted GPA: 4.57/4.00. Coursework includes AP Biology, AP Computer Science A, AP Calculus AB, AP Calculus BC, AP Physics 1, and Biotechnology.</p>
         <ul class="tag-list"><li>Computer science</li><li>Biology</li><li>Calculus</li><li>Physics</li></ul>
       </section>
       <section class="resume-panel">
@@ -191,7 +192,7 @@ nav_order: 3
       <section class="resume-panel resume-panel--wide">
         <p class="resume-panel__meta">2024–present · Independent projects</p>
         <h3>Freelance 3D Modeling and Animation</h3>
-        <p>Completed a small number of 3D modeling and animation projects for friends and family, building practical experience in scoping requests, iterating on visual work, and delivering clear technical and creative assets.</p>
+        <p>Completed a few 3D modeling and animation projects for friends and family. The work gave me experience discussing what someone wanted, revising designs, and finishing projects for another person.</p>
         <ul class="tag-list"><li>Blender</li><li>3D modeling</li><li>Animation</li><li>Client communication</li></ul>
       </section>
     </div>

@@ -1,8 +1,7 @@
 ---
 layout: page
 title: waveOrder
-description: A Blender animation explaining waveOrder, an open-source suite of microscopy tools for visualizing cellular structures without stains.
-contribution: Modeled microscope components and animated the imaging workflow for technical communication.
+description: Modeled microscope components and animated the imaging workflow in Blender for Video 3 of the waveOrder preprint.
 tags: [Blender, 3D modeling, Technical animation, Microscopy]
 github: https://github.com/mehta-lab/waveorder
 demo: https://www.youtube.com/watch?v=0zE3n4akSwA
@@ -29,17 +28,18 @@ permalink: /projects/waveorder/
     </p>
     <p class="detail-link">
       <a href="https://github.com/mehta-lab/waveorder">View the waveOrder repository</a>
+      <a href="https://arxiv.org/abs/2412.09775">View the waveOrder preprint</a>
     </p>
   </section>
 
   <section class="detail-section">
     <h2>Contribution and outcome</h2>
     <p>
-      I designed the 3D scene, modeled the relevant microscope components, animated the sequence, and refined the timing
-      and camera movement for clarity. The final animation provides a visual explanation of phase and polarization
-      imaging that can accompany more detailed technical material.
+      I designed the 3D scene, modeled the microscope components, animated the imaging sequence, and refined the timing
+      and camera movement. The finished animation was included as Video 3 with the waveOrder preprint, which acknowledges
+      my contribution.
     </p>
-    <p>The animation was designed to help computational microscopy researchers understand the imaging workflow.</p>
+    <p>The animation gives computational microscopy researchers a visual introduction to the imaging workflow before they move into the more detailed technical material.</p>
   </section>
 
   <section class="detail-section">

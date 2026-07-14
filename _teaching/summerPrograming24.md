@@ -24,7 +24,7 @@ detail_page: true
   <section class="detail-section">
     <h2>Impact</h2>
     <ul class="detail-impact">
-      <li>15+ students reached</li>
+      <li>20+ students reached</li>
       <li>Each student had a laptop and built working programs</li>
       <li>Introduced students to both text-based and block-based programming</li>
       <li>Developed and taught lessons with my robotics team before my library internship</li>

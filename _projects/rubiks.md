@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Rubik's Cube Animation
-description: An independent Blender project exploring stylized modeling, materials, camera framing, and animation.
-contribution: Designed and animated the scene without following a tutorial.
+description: Designed and animated a stylized Rubik’s Cube scene in Blender without following a tutorial.
 tags: [Blender, 3D modeling, Materials, Animation]
 demo: https://www.youtube.com/watch?v=C2VuaL9GTGE
 img: assets/img/Rubiks.png

@@ -1,16 +1,15 @@
 <div class="col">
   <article class="card project-card h-100">
     {% if project.img %}
-      {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 520px, 100vw" alt=project.title class="card-img-top" %}
-    {% else %}
-      <div class="project-card__placeholder" aria-hidden="true"><i class="fa-solid fa-diagram-project"></i></div>
+      {% assign image_class = 'card-img-top' %}
+      {% if project.title == 'SCRIBE' or project.title == 'waveOrder' %}
+        {% assign image_class = 'card-img-top project-card__image--contain' %}
+      {% endif %}
+      {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 520px, 100vw" alt=project.title class=image_class %}
     {% endif %}
     <div class="card-body">
       <h3 class="card-title">{{ project.title }}</h3>
       <p class="card-text">{{ project.description }}</p>
-      {% if project.contribution %}
-        <p class="project-card__contribution"><strong>Contribution:</strong> {{ project.contribution }}</p>
-      {% endif %}
       {% if project.tags %}
         <ul class="tag-list" aria-label="Technologies used for {{ project.title }}">
           {% for tag in project.tags %}

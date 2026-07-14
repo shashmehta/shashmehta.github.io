@@ -2,7 +2,6 @@
 layout: page
 title: FIRST Tech Challenge Youth Coach
 description: Paid youth coaching in programming, hardware, and competition strategy for younger robotics students
-img: assets/img/placeholder_mentorship.svg
 importance: 2
 category: Mentorship
 horizontal: false

@@ -337,6 +337,11 @@ strong {
   object-fit: cover;
 }
 
+.projects .project-card img.project-card__image--contain {
+  object-fit: contain;
+  background: var(--global-card-bg-color);
+}
+
 .projects .project-card__placeholder {
   display: grid;
   place-items: center;

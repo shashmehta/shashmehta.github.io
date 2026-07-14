@@ -1,8 +1,7 @@
 ---
 layout: page
 title: SCRIBE
-description: An open-source Python pipeline for exploring interpretable biomarker candidates in single-cell RNA-seq data.
-contribution: Built the pipeline with a collaborator and presented the work at AACR in April 2026.
+description: Co-developed an open-source Python pipeline that ranks biomarker candidates from single-cell RNA-seq data, then presented the work at AACR in April 2026.
 tags: [Python, AnnData, Random Forests, scRNA-seq]
 github: https://github.com/shashmehta/SCRIBE
 demo: https://shashmehta-scribe.hf.space/
@@ -36,7 +35,7 @@ detail_page: true
   <section class="detail-section">
     <h2>Shashvat’s contribution</h2>
     <p>
-      I co-developed SCRIBE with Pragnya Keerthivasan, contributing to the machine-learning pipeline, data analysis, model evaluation, and interpretation of identified biomarkers. I also helped create and present our poster at the AACR Annual Meeting.
+      I co-developed SCRIBE with Pragnya Keerthivasan, working on the machine-learning pipeline, data analysis, model evaluation, and interpretation of ranked biomarker candidates. I also helped create and present our poster at the AACR Annual Meeting.
     </p>
   </section>
 
@@ -45,7 +44,7 @@ detail_page: true
     <ol class="detail-steps">
       <li>Convert GEO datasets into a standard AnnData format.</li>
       <li>Merge datasets for combined analysis.</li>
-      <li>Correct batch effects with Harmony.</li>
+      <li>Correct batch effects using ComBat or Harmony. Both methods are supported, although Harmony generally performed better in our testing.</li>
       <li>Train interpretable Random Forest classifiers.</li>
       <li>Generate UMAPs, volcano plots, differential-expression summaries, and feature-importance rankings.</li>
     </ol>
@@ -71,7 +70,7 @@ detail_page: true
       <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_3.jpg" title="SCRIBE research poster" alt="SCRIBE research poster displayed at AACR" %}</div>
     </div>
     <div class="detail-poster">{% include figure.liquid path="assets/img/scribe_poster.jpg" title="SCRIBE research poster" alt="Research poster describing the SCRIBE pipeline" %}</div>
-    <p class="todo-note">[TODO: Add Zenodo poster record and DOI after upload.]</p>
+    {% comment %}Add the Zenodo poster record and DOI after the upload is complete.{% endcomment %}
   </section>
 
   <section class="detail-section">

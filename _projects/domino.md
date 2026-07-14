@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Domino Animation
-description: A Blender study in rigid-body simulation, lighting, materials, and animation timing.
-contribution: Designed, modeled, lit, and animated the scene as an independent experiment.
+description: Built and animated a Blender scene to experiment with rigid-body simulation, lighting, materials, and timing.
 tags: [Blender, Rigid body simulation, Lighting, Animation]
 demo: https://www.youtube.com/watch?v=EXJsybOjGQQ
 img: assets/img/domino.png

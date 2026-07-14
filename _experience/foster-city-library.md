@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Foster City Library
-description: 2025 library internship, youth programming, and community outreach
+description: Summer 2025 library internship, youth programming, and community outreach
 img: assets/img/foster_city_scratch_2025_1.jpg
 importance: 1
 category: Volunteer
@@ -11,15 +11,16 @@ detail_page: true
 <div class="detail-page">
   <section class="detail-section detail-overview">
     <p>
-      At Foster City Library, I supported youth programs, daily library operations, and community outreach. I also helped
-      represent the branch at the county fair and later built on the programming classes I had taught in 2024.
+      During Summer 2025, I worked as an intern at Foster City Library, supporting youth programs, daily operations, and
+      community outreach. I also helped represent the library at the county fair and taught a Scratch programming class
+      for younger students.
     </p>
     <p>
-      This experience gave me a closer look at how public libraries support learning across age groups and helped me
-      connect technical teaching with broader community service.
+      The internship built on the programming classes I had helped teach at the library the previous summer and gave me
+      more responsibility for helping students work through their own projects.
     </p>
     <p>
-      This 2025 internship was separate from my earlier summer programming classes. As part of the internship, I taught a
+      This internship was separate from my earlier summer programming classes. As part of the internship, I taught a
       Scratch programming class for young students. I introduced concepts such as loops and conditionals, then guided
       students as they experimented, asked questions, and built creative projects in Scratch.
     </p>

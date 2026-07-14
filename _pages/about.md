@@ -8,12 +8,12 @@ social: false
 
 <section class="portfolio-hero" aria-labelledby="hero-heading">
   <div class="portfolio-hero__copy">
-    <p class="eyebrow">Shashvat Mehta · Student at San Mateo High school · 12th Grade</p>
+    <p class="eyebrow">Shashvat Mehta · Student at San Mateo High School · 12th Grade</p>
     <h1 id="hero-heading">High school student passionate about biological research and robotics.</h1>
     <p class="portfolio-hero__lede">
       My recent work includes SCRIBE, an open-source single-cell RNA-sequencing pipeline presented at AACR, and software
-      and technical leadership for an FTC regional championship robotics team. I like working through complex technical problems
-      and turning them into tools that other people can use.
+      and technical leadership for an FTC regional championship robotics team. I enjoy working through complex
+      technical problems and turning them into tools other people can use.
     </p>
   </div>
   <figure class="profile-portrait profile-portrait--hero">
@@ -25,15 +25,11 @@ social: false
   <div class="about-summary__copy">
     <div class="section-heading"><h2 id="about-heading">About</h2></div>
     <p>
-      I'm Shashvat Mehta, a senior at San Mateo High School interested in
-      the intersection of computer science,
-      engineering, and biology. I'm drawn to projects where technical problem-solving can make complex systems easier to
-      understand, whether that means building robotics software, analyzing biological data, or creating tools others can
-      use.
+      I’m Shashvat Mehta, a senior at San Mateo High School interested in the intersection of computer science, engineering, and biology. I enjoy working through technical problems, especially when the result is something useful or easier for other people to understand.
     </p>
     <p>
-      Through Vortex Robotics, I have led software and team strategy while mentoring younger students. Teaching robotics,
-      programming, and 3D modeling has also made me more deliberate about how I explain technical decisions.
+      Through Vortex Robotics, my old FIRST Tech Challange Team, I led software development and team strategy as captain before becoming a coach for younger students.
+      Teaching robotics, programming, and 3D modeling has helped me get better at explaining technical ideas clearly.
     </p>
     <p>Outside school, I enjoy cooking, spending time with friends and family, and going to the gym.</p>
   </div>
@@ -52,9 +48,7 @@ social: false
         <p class="featured-card__type">Computational biology · open source</p>
         <h3>SCRIBE</h3>
         <p>Analyzes single-cell RNA-seq data and surfaces interpretable biomarker candidates for further investigation.</p>
-        <p class="featured-card__contribution">
-          <strong>Contribution:</strong> Built the Python pipeline with a collaborator and presented it at AACR in April 2026.
-        </p>
+        <p class="featured-card__contribution">Co-developed the Python pipeline with Pragnya Keerthivasan and presented the work at AACR in April 2026.</p>
         <ul class="tag-list" aria-label="SCRIBE technologies">
           <li>Python</li><li>AnnData</li><li>Random Forests</li><li>scRNA-seq</li>
         </ul>
@@ -71,7 +65,7 @@ social: false
         <p class="featured-card__type">Technical visualization</p>
         <h3>waveOrder Animation</h3>
         <p>A Blender animation explaining how an open-source microscopy tool visualizes cells without stains.</p>
-        <p class="featured-card__contribution"><strong>Contribution:</strong> Modeled microscope components and animated the imaging workflow.</p>
+        <p class="featured-card__contribution">Modeled microscope components and animated the imaging workflow for Video 3 of the waveOrder preprint.</p>
         <ul class="tag-list" aria-label="waveOrder technologies"><li>Blender</li><li>3D modeling</li><li>Animation</li></ul>
         <div class="card-actions"><a href="{{ '/projects/waveorder/' | relative_url }}">Case study</a></div>
       </div>
@@ -83,10 +77,10 @@ social: false
         <h3>Vortex Robotics</h3>
         <p>FTC robot software, design discussions, competition strategy, and technical mentoring for younger students.</p>
         <p class="featured-card__contribution">
-          <strong>Contribution:</strong> Served as team captain and software lead for a regional championship team.
+          Led robot software and team strategy as captain, then coached younger students in programming, hardware integration, and debugging.
         </p>
         <ul class="tag-list" aria-label="Robotics technologies"><li>Java</li><li>FTC</li><li>Computer vision</li><li>Debugging</li></ul>
-        <div class="card-actions"><a href="{{ '/experience/#leadership' | relative_url }}">View experience</a></div>
+        <div class="card-actions"><a href="{{ '/cv/#leadership' | relative_url }}">View experience</a></div>
       </div>
     </article>
 

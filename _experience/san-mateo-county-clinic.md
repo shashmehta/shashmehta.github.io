@@ -1,8 +1,7 @@
 ---
 layout: page
 title: San Mateo County Clinic Volunteer
-description: Community healthcare volunteering and patient support
-img: assets/img/placeholder_clinic.svg
+description: Summer 2026 community healthcare volunteering and patient support
 importance: 2
 category: Volunteer
 detail_page: true
@@ -11,12 +10,12 @@ detail_page: true
 <div class="detail-page">
   <section class="detail-section detail-overview">
     <p>
-      I volunteered with the San Mateo County Clinic system during the summer before senior year, supporting day-to-day
-      clinic operations and helping greet patients in a community healthcare setting.
+      During Summer 2026, I volunteered with the San Mateo County Clinic system, where I greeted patients and helped with
+      day-to-day clinic operations.
     </p>
     <p>
-      The experience helped me better understand healthcare delivery, patient-facing service, and the role technology can
-      play in supporting clinical systems.
+      The experience showed me how much coordination happens behind the scenes in a community healthcare setting and gave
+      me a better understanding of patient-facing service.
     </p>
   </section>
 
@@ -26,7 +25,6 @@ detail_page: true
       <li>Patient greeting and support</li>
       <li>Daily clinic operations</li>
       <li>Community healthcare service</li>
-      <li>Exposure to healthcare systems and technology</li>
     </ul>
   </section>
 </div>

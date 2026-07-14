@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research software, robotics and engineering work, technical visualization, and selected 3D experiments.
+description: Research software, computational microscopy animation, and selected independent 3D projects.
 nav: true
 nav_order: 2
 display_categories: [Research & Software, 3D Design & Animation]
@@ -13,8 +13,7 @@ horizontal: false
 
 <div class="projects-intro">
   <p>
-    These projects showcase some of my technical work. Research and software projects come first, followed by technical visualization and
-    creative 3D work.
+    My work ranges from computational biology software to microscopy animation and independent Blender projects.
   </p>
 </div>
 

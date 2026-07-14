@@ -8,7 +8,7 @@ display_categories: [Classes, Mentorship]
 horizontal: false
 ---
 
-<p class="compatibility-note">Teaching is now part of the <a href="{{ '/experience/#teaching' | relative_url }}">CV</a>. The detailed pages below remain available.</p>
+<p class="compatibility-note">Teaching is now part of the <a href="{{ '/cv/#teaching' | relative_url }}">CV</a>. The detailed pages below remain available.</p>
 
 <!-- pages/projects.md -->
 <div class="teaching">
