@@ -70,7 +70,10 @@ detail_page: true
       <div class="detail-image">{% include figure.liquid path="assets/img/aacr_2026_3.jpg" title="SCRIBE research poster" alt="SCRIBE research poster displayed at AACR" %}</div>
     </div>
     <div class="detail-poster">{% include figure.liquid path="assets/img/scribe_poster.jpg" title="SCRIBE research poster" alt="Research poster describing the SCRIBE pipeline" %}</div>
-    {% comment %}Add the Zenodo poster record and DOI after the upload is complete.{% endcomment %}
+    <p>
+      The poster is archived on Zenodo with DOI
+      <a href="https://doi.org/10.5281/zenodo.21762528">10.5281/zenodo.21762528</a>.
+    </p>
   </section>
 
   <section class="detail-section">
@@ -78,6 +81,7 @@ detail_page: true
     <div class="detail-actions" aria-label="SCRIBE project links">
       <a href="https://github.com/shashmehta/SCRIBE">GitHub repository</a>
       <a href="https://shashmehta-scribe.hf.space/">Hugging Face demo</a>
+      <a href="https://zenodo.org/records/21762528">Zenodo poster record</a>
       <a href="https://www.linkedin.com/posts/shashvat-mehta_im-so-grateful-for-the-recent-opportunity-activity-7453844212317323264-XH4B">LinkedIn Post</a>
     </div>
   </section>

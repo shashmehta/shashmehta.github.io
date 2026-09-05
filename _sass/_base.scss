@@ -319,6 +319,27 @@ strong {
     transform 160ms ease;
 }
 
+.project-card {
+  position: relative;
+}
+
+.project-card__link {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.project-card__link:focus-visible {
+  outline-offset: -3px;
+}
+
+.project-card .card-actions a {
+  position: relative;
+  z-index: 2;
+}
+
 .projects .project-card:hover {
   border-color: var(--global-theme-color);
   transform: translateY(-2px);

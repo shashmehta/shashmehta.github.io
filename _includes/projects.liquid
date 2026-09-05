@@ -1,5 +1,11 @@
 <div class="col">
   <article class="card project-card h-100">
+    {% if project.redirect %}
+      {% assign project_link = project.redirect %}
+    {% else %}
+      {% assign project_link = project.url | relative_url %}
+    {% endif %}
+    <a class="project-card__link" href="{{ project_link }}" aria-label="View {{ project.title }}"></a>
     {% if project.img %}
       {% assign image_class = 'card-img-top' %}
       {% if project.title == 'SCRIBE' or project.title == 'waveOrder' %}
@@ -18,17 +24,11 @@
         </ul>
       {% endif %}
       <div class="card-actions" aria-label="{{ project.title }} links">
-        {% unless project.redirect -%}
-          <a href="{{ project.url | relative_url }}">Project</a>
-        {%- endunless %}
         {% if project.github -%}
           <a href="{{ project.github }}">GitHub</a>
         {%- endif %}
         {% if project.demo -%}
           <a href="{{ project.demo }}">Demo</a>
-        {%- endif %}
-        {% if project.redirect -%}
-          <a href="{{ project.redirect }}">Visit project</a>
         {%- endif %}
       </div>
     </div>
